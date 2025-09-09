@@ -1,0 +1,19 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0b0b"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bgv)"/>
+  <!-- Placeholder full image -->
+  <rect x="120" y="60" width="960" height="480" rx="12" fill="#1f2937" stroke="#374151" stroke-width="4"/>
+  <text x="600" y="310" font-size="24" text-anchor="middle" fill="#9ca3af" font-family="Arial, Helvetica, sans-serif">ภาพเต็มจอ</text>
+
+  <!-- Back hint -->
+  <circle cx="70" cy="60" r="18" fill="rgba(255,255,255,0.2)"/>
+  <path d="M 76 60 L 64 60 M 68 56 L 64 60 L 68 64" stroke="#ffffff" stroke-width="3" fill="none"/>
+
+  <text x="60" y="560" fill="#9ca3af" font-size="16" font-family="Arial, Helvetica, sans-serif">กดปุ่มย้อนกลับของอุปกรณ์เพื่อกลับ</text>
+</svg>
+

@@ -13,14 +13,29 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "ต้องการใช้กล้องเพื่อถ่ายภาพ",
+        "NSPhotoLibraryUsageDescription": "ต้องการเข้าถึงคลังภาพเพื่อแสดงรูป",
+        "NSPhotoLibraryAddUsageDescription": "ต้องการบันทึกรูปลงในคลังภาพ"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "androidNavigationBar": {
+      "visible": "immersive",
+      "barStyle": "light-content",
+      "backgroundColor": "#000000"
     },
     "web": {
       "favicon": "./assets/favicon.png"

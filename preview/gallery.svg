@@ -1,0 +1,26 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" fill="#ffffff"/>
+  <text x="60" y="40" fill="#111827" font-size="24" font-family="Arial, Helvetica, sans-serif">แกลเลอรี (ตัวอย่างกริดรูป)</text>
+
+  <!-- Grid thumbnails -->
+  <g transform="translate(60,70)" fill="#e5e7eb">
+    <!-- 4 columns x 3 rows examples -->
+    <rect x="0"   y="0"   width="240" height="160" rx="8"/>
+    <rect x="260" y="0"   width="240" height="160" rx="8"/>
+    <rect x="520" y="0"   width="240" height="160" rx="8"/>
+    <rect x="780" y="0"   width="240" height="160" rx="8"/>
+
+    <rect x="0"   y="180" width="240" height="160" rx="8"/>
+    <rect x="260" y="180" width="240" height="160" rx="8"/>
+    <rect x="520" y="180" width="240" height="160" rx="8"/>
+    <rect x="780" y="180" width="240" height="160" rx="8"/>
+
+    <rect x="0"   y="360" width="240" height="160" rx="8"/>
+    <rect x="260" y="360" width="240" height="160" rx="8"/>
+    <rect x="520" y="360" width="240" height="160" rx="8"/>
+    <rect x="780" y="360" width="240" height="160" rx="8"/>
+  </g>
+
+  <text x="60" y="560" fill="#6b7280" font-size="16" font-family="Arial, Helvetica, sans-serif">เลื่อนลงเพื่อโหลดรูปเพิ่ม | แตะรูปเพื่อเปิดแบบเต็มหน้าจอ</text>
+</svg>
+
